@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-theme-shared-nav",
+  "version": "1.0.0",
+  "main": "gatsby-config.js",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://jason.af)",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^3.11.0"
+  },
+  "dependencies": {
+    "gatsby-plugin-layout": "^2.11.0"
+  }
+}

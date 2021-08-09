@@ -1,0 +1,25 @@
+.shared-nav {
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.5rem 5vw;
+}
+
+.shared-nav nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shared-nav a {
+  color: inherit;
+  padding: 0.25rem;
+  text-decoration: none;
+}
+
+.shared-nav a:focus,
+.shared-nav a:hover {
+  background: var(--white);
+  color: var(--black);
+}

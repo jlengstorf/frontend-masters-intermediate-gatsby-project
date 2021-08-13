@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.input {
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+  width: 100%;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 0.25.rem 1rem;
+}

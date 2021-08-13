@@ -7,7 +7,7 @@ module.exports = {
         path: '/books',
       },
       {
-        label: 'Authos',
+        label: 'Authors',
         path: '/authors',
       },
     ],

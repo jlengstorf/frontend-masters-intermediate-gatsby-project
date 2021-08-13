@@ -25,11 +25,13 @@ export function Nav() {
       <Link to="/" className={link}>
         {data.site.siteMetadata.title}
       </Link>
-      {navItems.map((item) => (
-        <Link key={`nav-${item.path}`} to={item.path} className={link}>
-          {item.label}
-        </Link>
-      ))}
+      <nav className={sharedNav}>
+        {navItems.map((item) => (
+          <Link key={`nav-${item.path}`} to={item.path} className={link}>
+            {item.label}
+          </Link>
+        ))}
+      </nav>
     </header>
   );
 }

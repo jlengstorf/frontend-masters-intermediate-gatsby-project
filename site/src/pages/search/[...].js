@@ -1,5 +1,5 @@
-import { navigate } from 'gatsby';
 import * as React from 'react';
+import { navigate } from 'gatsby';
 
 import { form, input, button } from '../../styles/search.module.css';
 

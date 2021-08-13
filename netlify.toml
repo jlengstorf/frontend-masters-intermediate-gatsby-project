@@ -1,3 +1,2 @@
 [build]
-  command = "yarn workspace site build"
-  publish = "site/public"
+  base = "site"

@@ -1,4 +1,4 @@
 [build]
-  build = "yarn workspace site build"
+  command = "yarn workspace site build"
   publish = "public"
   environment = { NETLIFY_USE_YARN = "true" }

@@ -1,0 +1,10 @@
+.content {
+  margin: 3rem auto;
+  max-width: 54ch;
+}
+
+.footer {
+  font-size: 0.75rem;
+  padding: 1rem 5vw;
+  text-align: center;
+}

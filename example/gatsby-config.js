@@ -1,19 +1,25 @@
 module.exports = {
   siteMetadata: {
+    title: 'My Book Club',
     navItems: [
       {
-        label: 'Home',
-        path: '/',
+        label: 'Books',
+        path: '/books',
       },
       {
-        label: 'About',
-        path: '/about',
+        label: 'Authors',
+        path: '/authors',
       },
       {
-        label: 'Contact',
-        path: '/contact',
+        label: 'Account',
+        path: '/account',
       },
     ],
   },
-  plugins: ['gatsby-theme-shared-nav'],
+  plugins: [
+    'gatsby-theme-shared-nav',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+  ],
 };

@@ -2,5 +2,8 @@
   "name": "gatsby-theme-shared-nav",
   "version": "1.0.0",
   "main": "gatsby-config.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-plugin-layout": "^2.11.0"
+  }
 }

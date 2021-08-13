@@ -2,7 +2,17 @@ const authors = require('./src/data/authors.json');
 const books = require('./src/data/books.json');
 
 exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
-  const { createNode } = actions;
+  const { createNode, createTypes } = actions;
+
+  createTypes(`
+    type Author implements Node {
+      books: [Book!]! @link(from: "slug" by: "author.slug")
+    }
+
+    type Book implements Node {
+      author: Author! @link(from: "author" by: "slug")
+    }
+  `);
 
   authors.forEach((author) => {
     createNode({

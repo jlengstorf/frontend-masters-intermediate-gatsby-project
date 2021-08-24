@@ -7,9 +7,20 @@ exports.sourceNodes = async ({
   createNodeId,
   createContentDigest,
 }) => {
-
   //helper to createNode
-  const { createNode } = actions;
+  const { createNode, createTypes } = actions;
+
+  // create relation between authors and books
+  // from : foreign key in author
+  createTypes(`
+    type Author implements Node{
+      books: [Book!]! @link(from:"slug" by: "author.slug")
+    }
+
+    type Book implements Node{
+      author: Author! @link(from:"author" by:"slug")
+    }
+  `);
 
   // create graphql nodes for all books
   authors.forEach((author) => {

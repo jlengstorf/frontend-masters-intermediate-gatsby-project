@@ -68,3 +68,20 @@ exports.createPages = async ({ actions }) => {
     },
   });
 };
+
+// create custom resolvers
+exports.createResolvers = ({ createResolvers }) => {
+  const resolvers = {
+    Book: {
+      buyLink: {
+        // type of data
+        type: 'String',
+        resolve: (source) => {
+          return `https://www.powells.com/searchresults?keyword=${source.isbn}`;
+        },
+      },
+    },
+  };
+
+  createResolvers(resolvers);
+};

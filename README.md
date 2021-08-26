@@ -16,3 +16,9 @@ Eg: If the site folder was renamed to `website` but the `package.json` name fiel
 ```
 
 [Course Guide Decumentation](https://frontendmasters.learnwithjason.dev/intermediate-gatsby/)
+
+## File Shadowing in themes
+
+If you have a theme called `gatsby-theme-shared-nav` and want to override properties for any theme then on your main site create a file shadow inside src.
+
+To create a shadow for above create a file as follows: `src/gatsby-theme-shared-nav/styles/variable.css` to shadow the `variables.css` file

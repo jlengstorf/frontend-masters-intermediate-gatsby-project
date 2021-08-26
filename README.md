@@ -21,4 +21,4 @@ Eg: If the site folder was renamed to `website` but the `package.json` name fiel
 
 If you have a theme called `gatsby-theme-shared-nav` and want to override properties for any theme then on your main site create a file shadow inside src.
 
-To create a shadow for above create a file as follows: `src/gatsby-theme-shared-nav/styles/variable.css` to shadow the `variables.css` file
+To create a shadow for above create a file as follows: `src/gatsby-theme-shared-nav/styles/variable.css` to shadow the `variables.css` file. Here we treat the theme folder name as the base src folder for the theme.

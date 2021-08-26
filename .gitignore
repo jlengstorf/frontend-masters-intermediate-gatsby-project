@@ -2,5 +2,6 @@ node_modules/
 .cache/
 public
 
+yarn-error.log
 # Local Netlify folder
 .netlify

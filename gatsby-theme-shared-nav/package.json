@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-theme-shared-nav",
+  "private": "true",
+  "version": "1.0.0",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^3.12.0"
+  }
+}

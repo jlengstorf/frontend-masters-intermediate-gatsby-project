@@ -4,7 +4,7 @@ This is the project we'll work through during the Frontend Masters Intermediate 
 
 ## Notes on yarn workspace
 
-The root `package.json` workspaces key are the folder names but command should be w.r.t `name field` on `workspaces' package.json` file. 
+The root `package.json` workspaces key are the folder names but command should be w.r.t `name field` on `workspaces' package.json` file.
 
 Eg: If the site folder was renamed to `website` but the `package.json` name field was till named as `site`. Then the `root package.json` will look something like this:
 
@@ -14,3 +14,5 @@ Eg: If the site folder was renamed to `website` but the `package.json` name fiel
 		"develop":"yarn workspace site develop" // workspace's name field on package.json
 	}
 ```
+
+[Course Guide Decumentation](https://frontendmasters.learnwithjason.dev/intermediate-gatsby/)

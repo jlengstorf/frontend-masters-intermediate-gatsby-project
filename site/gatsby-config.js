@@ -10,6 +10,10 @@ module.exports = {
         label: 'Authors',
         path: '/authors',
       },
+      {
+        label: 'Account',
+        path: '/account/',
+      },
     ],
   },
   plugins: [

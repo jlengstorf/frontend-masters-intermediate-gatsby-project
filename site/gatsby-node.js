@@ -47,19 +47,19 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
     });
   });
 
-  const node = {
-    id: createNodeId(`some-unique-string`),
-    some: 'data',
-    goes: 'here',
-    parent: null,
-    children: [],
-    internal: {
-      type: 'MyCustomType',
-      content: JSON.stringify(nodeContent),
-      contentDigest: createContentDigest(nodeContent),
-    },
-  };
-};
+//   const node = {
+//     id: createNodeId(`some-unique-string`),
+//     some: 'data',
+//     goes: 'here',
+//     parent: null,
+//     children: [],
+//     internal: {
+//       type: 'MyCustomType',
+//       content: JSON.stringify(nodeContent),
+//       contentDigest: createContentDigest(nodeContent),
+//     },
+//   };
+ };
 
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;

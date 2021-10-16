@@ -15,3 +15,7 @@ This is the project we'll work through during the Frontend Masters Intermediate 
 ### New theme
 - This theme is used as default theme for the SITE project.
 - Shadowing: Selectively replacing a theme.
+### Redirecting Client-only file
+- syncing catch-all files with gatsby and host
+- yarn workspace site add gatsby-plugin-netlify
+

@@ -1,6 +1,9 @@
 {
-    "private":true,
-    "workspaces": ["site"],
+    "private": true,
+    "workspaces": [
+        "site",
+        "gatsby-theme-shared-nav"
+    ],
     "scripts": {
         "develop": "yarn workspace site develop",
         "build": "yarn workspace site build"
